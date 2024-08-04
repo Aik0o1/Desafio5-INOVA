@@ -7,12 +7,11 @@ const mapContainerStyle = {
 };
 
 const center = {
-  lat: -2.5307, // Default latitude for Maranhão
-  lng: -44.3068  // Default longitude for Maranhão
+  lat: -2.5307, 
+  lng: -44.3068  
 };
 
 const MapComponent = ({ city }) => {
-  // Define city coordinates (you can expand this with more cities)
   const cityCoordinates = {
     "São Luís": { lat: -2.5307, lng: -44.3068 },
     "barreirinhas": { lat: -2.74938, lng: -42.8328 },
